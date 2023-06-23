@@ -6,5 +6,5 @@ git clone https://github.com/firme-coding/exercises.git
 ## How to run your code
 Type this command in your terminal
 ```shell
-node june22.js
+node <name of file>.js
 ```
