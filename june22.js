@@ -18,8 +18,6 @@
 // but this time pass in the variable wrongOutPut that is given below
 
 
-result = greeting(wrongOutPut);
-
-
+let wrongOutPut = "My name is <insert your name>.";
 
 
