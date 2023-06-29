@@ -11,6 +11,7 @@
 // 1. We will complete a function that takes no parameters and returns true. 
 // Add a statement that will cause this function to return true when run.
 function returnTrue() {
+  return true;
   // returns true
 
 }
@@ -19,15 +20,17 @@ console.log(returnTrue());
 // 2. We are going to complete a function that takes one number parameter, 
 // adds two to that number, then returns the result
 function addTwo(num) {
+const sum= num+2;
+return sum;
   // return the input number plus 2
   
 }
-console.log(addTwo());
+console.log(addTwo(10));
 
 // 3. We will complete a function that takes in a boolean parameter and returns the opposite.
 function opposite(boolean) {
   // returns the opposite of the inputted boolean value
-
+return !boolean;
 }
 var outputTrue = opposite(false);
 console.log('should be true:', outputTrue);
